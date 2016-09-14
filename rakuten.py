@@ -6,7 +6,6 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.keys import Keys
 import time
 import random
 
@@ -17,8 +16,8 @@ options.add_argument("user-data-dir=PATH") #Path to your chrome profile
 # Create a new instance of the Chrome driver
 driver = webdriver.Chrome(executable_path='DRIVER_PATH', chrome_options=options)
 
-# go to the google home page
-driver.get(r"http://websearch.rakuten.co.jp")
+# go to the rakuten search page
+driver.get(r"http://websearch.rakuten.co.jp/Web?qt=%E3%81%BB%E3%82%93%E3%81%AE&x=0&y=0&col=OW&svx=101210&ref=top&hs=1")
 
 # Scroll down to right of page
 driver.execute_script("window.scrollTo(document.body.scrollWidth, 0);")
@@ -35,12 +34,7 @@ password1.send_keys("PASS")
 password1.submit()"""
 
 # Search (todo: use BS to grab search terms)
-dsearch = [#Search terms here]
-searchbar0 = driver.find_element_by_class_name('sftxt')
-searchbar0.send_keys(dsearch[0])
-searchbar0.submit()
-
-
+dsearch = []#Search terms here
 count = 1
 while (count < 32):
     clearbtn = driver.find_element_by_id('cbtn').click()
