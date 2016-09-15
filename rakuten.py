@@ -41,3 +41,4 @@ while (count < 32):
     time.sleep(random.uniform(1,5))
     count += 1
 
+driver.quit()
