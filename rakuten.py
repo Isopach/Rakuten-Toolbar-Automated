@@ -31,7 +31,7 @@ password1.send_keys("PASS")
 password1.submit()"""
 
 # Search (todo: use BS to grab search terms)
-dsearch = []#Search terms here
+dsearch = [] #Fill in at least 32 search terms here
 count = 1
 while (count < 32):
     clearbtn = driver.find_element_by_id('cbtn').click()
