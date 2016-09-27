@@ -1,5 +1,5 @@
 # Rakuten-Toolbar-Automated
-
+Automate your Rakuten Toolbar today and get ~$0.30 with just a click!
 # SETUP
 Line 11: Fill in Chrome profile path on line 11. You can find this by typing `chrome://version/` in your browser.
 
