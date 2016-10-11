@@ -1,6 +1,9 @@
-# Rakuten-Toolbar-Automated
+# Rakuten Toolbar Automated
 
-## SETUP
+### Packages needed
+Selenium `pip install -U selenium`
+
+### SETUP
 1. Line 11: Fill in Chrome profile path on line 11: `options.add_argument("user-data-dir=PATH")`.     
 You can find this by typing `chrome://version/` in your browser.
 
