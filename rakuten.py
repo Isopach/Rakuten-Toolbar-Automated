@@ -31,7 +31,7 @@ password1.send_keys("PASS")
 password1.submit()"""
 
 # Search (todo: use BS to grab search terms)
-dsearch = [] #Fill in at least 32 search terms here
+dsearch = [u'ジーンズ',u'メイク',u'半袖',u'長袖',u'タンクトップ',u'フリース',u'ニットジャケット',u'スカート',u'トレーナー',u'クルーソックス',u'デニム',u'シューズ',u'レザー手袋',u'日本製',u'アンサンブル',u'ハイゲージ',u'レザークラフト',u'アップ',u'フレア',u'ロングカーディガン ',u'極細アクリル',u'キュプラ',u'ストレッチ',u'スキニーパンツ',u'ケース',u'シークレット',u'ナチュラル',u'ポッキリ',u'小物ケース',u'ツリー柄',u'半袖',u'ナチュラル'] #Fill in at least 32 search terms here
 count = 1
 while (count < 32):
     clearbtn = driver.find_element_by_id('cbtn').click()
