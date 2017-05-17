@@ -1,5 +1,7 @@
 # Rakuten Toolbar Automated
 
+## Warning: This script is for educational purposes only. It will not be updated and you are using it at your own risk of Rakuten disabling your account. I take no responsibilities for any loss of property. 
+
 ### Packages needed
 Selenium `pip install -U selenium`
 
